@@ -9,7 +9,7 @@ def stream_count_words():
     for line in tqdm(sys.stdin, desc="Counting words"):
         word_counts[line.strip()] += 1
     for word, count in word_counts.items():
-        print(word + " " + str(count))
+        print(str(count) + ',"' + word + '"')
 
 
 def main():
