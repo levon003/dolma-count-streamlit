@@ -137,7 +137,7 @@ I was primarily motivated by an interest in the ImpACT license, and I wanted to 
 I also think [word counts are underrated](https://twitter.com/dmimno/status/1094658594262401026):
 a good way to quickly highlight the similarities and differences of the datasets that make up Dolma.
 
-View the code for this Streamlit app [on GitHub](https://github.com/levon003/dolma-count-streamlit), including [the table as a CSV](). Shout-outs to `gunzip` for being outrageously fast.
+View the code for this Streamlit app [on GitHub](https://github.com/levon003/dolma-count-streamlit), including [the table as a CSV](https://github.com/levon003/dolma-count-streamlit/blob/main/src/resources/top_words.csv). Shout-outs to `gunzip` for being outrageously fast.
 
 Under the terms of the license, I must include the following attribution notice:
 Dolma is licensed under the AI2 ImpACT License for Medium Risk Artifacts, © 2023 The Allen Institute for Artificial Intelligence.

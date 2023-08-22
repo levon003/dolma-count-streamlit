@@ -2,6 +2,8 @@
 
 Simple Streamlit app showing word counts for AI2's Dolma dataset.
 
+View the app here: https://dolma-count-levon003.streamlit.app/
+
 Read more: https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64
 
 ## Local development setup
