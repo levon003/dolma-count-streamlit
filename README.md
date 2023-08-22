@@ -1,10 +1,12 @@
-# Dolma counts
+# AI2 Dolma Most Frequent Words: a derivative dataset of the most common words
 
-Simple Streamlit app showing word counts for AI2's Dolma dataset.
+Simple Streamlit app (and blog post) showing word counts for AI2's Dolma dataset.
 
 View the app here: https://dolma-count-levon003.streamlit.app/
 
-Read more: https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64
+<img src="figures/table_screenshot.png" alt="A screenshot of the table displayed in the Streamlit app" />
+
+Read more about Dolma: https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64
 
 ## Local development setup
 
