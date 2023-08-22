@@ -1,6 +1,7 @@
 from pathlib import Path
 
 import matplotlib
+import matplotlib.pyplot
 import numpy as np
 import pandas as pd
 import streamlit as st
