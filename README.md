@@ -15,8 +15,10 @@ This repository uses Conda to manage two dependencies: Python and Poetry. ([This
 Install conda or miniconda. Then, create the needed environment, called `dolma-count`.
 
 ```bash
-conda env create -f environment.yml
+conda env create -f conda-environment.yml
 ```
+
+Note that the environment file can't be called `environment.yml` because of how Streamlit resolves dependencies.
 
 ### Python development
 
@@ -34,4 +36,4 @@ Ideally, the Makefile would activate the needed conda environment, but I don't a
 
  ### "Dolma"
 
- According to AI2's blog post, Dolma stands for "Data to feed OLMo’s Appetite". For me, it immediately made me think of the Armenian/Ottoman dish ["dolma"](https://en.wikipedia.org/wiki/Dolma).
+ According to AI2's blog post, Dolma stands for "Data to feed OLMo's Appetite". For me, it immediately made me think of the Armenian/Ottoman dish ["dolma"](https://en.wikipedia.org/wiki/Dolma). I used the stone emoji 🪨 as the app icon to evoke the "dolma rock" that my father used to weight the wrapped bundles down while boiling.

@@ -31,6 +31,5 @@ jupyter:
 test:
 	@poetry run pytest --cov=src --cov-report term-missing
 
-
 run-streamlit:
 	@streamlit run src/streamlit_app.py --server.port 8080 --
