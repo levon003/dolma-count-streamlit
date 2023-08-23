@@ -1,12 +1,12 @@
 # AI2 Dolma Most Frequent Words: a derivative dataset of the most common words
 
-_Published August 21, 2023 by [Zachary Levonian](https://www-users.cse.umn.edu/~levon003/)_
+_Published August 21, 2023 by [Zachary Levonian](https://www-users.cse.umn.edu/~levon003/). Best viewed [as a Streamlit app](https://dolma-count-levon003.streamlit.app/)._
 
 In August 2023, AI2 released [Dolma](https://huggingface.co/datasets/allenai/dolma), an open corpus for training large language models.
 Read their [blog post](https://blog.allenai.org/dolma-3-trillion-tokens-open-llm-corpus-9a0ff4b8da64) to learn more.
 
 The texts in Dolma come from six data sources.
-This Streamlit app shows the 500 most frequent words in the three smallest sources: [peS2o](https://github.com/allenai/peS2o), [Project Gutenberg](https://www.gutenberg.org/), and Wikipedia.
+This blog post shows the most frequent words in the three smallest sources: [peS2o](https://github.com/allenai/peS2o), [Project Gutenberg](https://www.gutenberg.org/), and Wikipedia.
 
 Dolma was released under an interesting license: the [AI2 ImpACT License for Medium Risk Artifacts](https://allenai.org/licenses/impact-mr).
 This small dataset of word counts is a Data Derivative of Dolma:
@@ -98,12 +98,12 @@ See the markdown table below.
 | 19 | it     |    23.3333  |           32 |   0.00214591 |               13 |       0.00797386 |               25 |       0.00284839 |
 
 ### Why did I make this word list?
-This app was made by [Zachary Levonian](https://www-users.cse.umn.edu/~levon003/), a computer science researcher interested in making ML-powered systems useful and accessible.
+This blog post was made by [Zachary Levonian](https://www-users.cse.umn.edu/~levon003/), a computer science researcher interested in making ML-powered systems useful and accessible.
 I was primarily motivated by an interest in the ImpACT license, and I wanted to produce a quick Data Derivative.
 I also think [word counts are underrated](https://twitter.com/dmimno/status/1094658594262401026):
 a good way to quickly highlight the similarities and differences of the datasets that make up Dolma.
 
-View the code for this Streamlit app [on GitHub](https://github.com/levon003/dolma-count-streamlit), including [the table as a CSV](https://github.com/levon003/dolma-count-streamlit/blob/main/src/resources/top_words.csv). Shout-outs to `gunzip` for being outrageously fast.
+View the code for this blog post and Streamlit app [on GitHub](https://github.com/levon003/dolma-count-streamlit), including [the full table as a CSV](https://github.com/levon003/dolma-count-streamlit/blob/main/src/resources/top_words.csv). Shout-outs to `gunzip` for being outrageously fast.
 
 Under the terms of the license, I must include the following attribution notice:
 Dolma is licensed under the AI2 ImpACT License for Medium Risk Artifacts, © 2023 The Allen Institute for Artificial Intelligence.
